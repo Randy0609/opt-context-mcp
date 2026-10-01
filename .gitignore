@@ -1,0 +1,19 @@
+# Local system files
+.DS_Store
+
+# Credentials and private configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+settings.local.json
+
+# Local runtime and private data
+.venv/
+__pycache__/
+*.log
+*.sqlite
+*.sqlite3
+state/
+private-data/
